@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.html">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.html">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.html">
+
+    <!-- Link CSS files -->
+    <link rel="stylesheet" href="css/critical.min.css">
+    <link rel="stylesheet" href="css/components.css">
+
+    <!-- Load Google Fonts and device.js -->
+    <script src="js/webfont.js"></script>
+    <script src="js/device.min.js"></script>
+</head>
+<body class="woocommerce-page shop-home-page">
+    <div id="app">
+        <!-- start header -->
+        <header id="top-bar" class="top-bar top-bar--style-2">
+            <div class="top-bar__bg" style="background-color: #FFF;background-image: url(img/top_bar_bg-2.png);background-repeat: no-repeat;background-position: center bottom;"></div>
+            <div class="container position-relative">
+                <div class="row justify-content-between no-gutters">
+                    <a class="top-bar__logo site-logo" href="index_4.html">
+                        <img class="img-fluid" src="img/site_logo.png" alt="demo">
+                    </a>
+                    <a id="top-bar_navigation-toggler" class="top-bar_navigation-toggler top-bar_navigation-toggler--dark" href="javascript:void(0);"><span></span></a>
+                    <div id="top-bar_inner" class="top-bar_inner text-lg-right">
+                        <div>
+                            <div class="d-lg-flex flex-lg-column-reverse align-items-lg-end">
+                                <nav id="top-bar_navigation" class="top-bar_navigation navigation" role="navigation">
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li class="has-submenu">
+                                            <a href="javascript:void(0);">Pages</a>
+                                            <ul class="submenu">
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="gallery.html">Gallery</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu">
+                                            <a href="javascript:void(0);">Shop</a>
+                                            <ul class="submenu">
+                                                <li><a href="shop_catalog.html">Shop Catalog</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="sign_in.html">Sign In/Up</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-submenu">
+                                            <a href="javascript:void(0);">Add Products</a>
+                                            <ul class="submenu">
+                                                <li><a href="add_product.html">Add New product</a></li>
+                                                <li><a href="shop1.html">Display Product</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contacts.html">Contacts</a></li>
+                                        <li class="li-profile"><a href="sign_in.html"><i class="fontello-profile"></i></a></li>
+                                        <li class="li-cart"><a href="cart.html"><i class="fontello-shopping-bag"></i><span class="total">0</span></a></li>
+                                        <li class="li-btn"><a class="custom-btn custom-btn--small custom-btn--style-2" href="contacts.html">Get in Touch</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+
+        <!-- Start Products Section -->
+        <div class="products-section">
+            <!-- Add your product items here -->
+            <!-- example product item -->
+            <div class="__item">
+                <figure class="__image">
+                    <img width="188" src="img/goods_img/1.jpg" alt="demo">
+                </figure>
+                <div class="__content">
+                    <h4 class="h6 __title"><a href="single_product.html">Oranges</a></h4>
+                    <div class="__category"><a href="#">Fruits</a></div>
+                    <div class="product-price">
+                        <span class="product-price_item product-price_item--new">&#x20B9 70</span>
+                    </div>
+                    <button class="custom-btn custom-btn--medium custom-btn--style-1" onclick="addItem()">
+                        <i class="fontello-shopping-bag"></i>Add to cart
+                    </button>
+                </div>
+                <span class="product-label product-label--sale">Sale</span>
+            </div>
+            <!-- Add more products similarly -->
+        </div>
+        <!-- End Products Section -->
+
+        <!-- Start Footer -->
+        <footer class="footer">
+            <section class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.php"> <i class="fas fa-angle-right"></i> Home</a>
+                    <a href="shop.php"> <i class="fas fa-angle-right"></i> Shop</a>
+                    <a href="about.php"> <i class="fas fa-angle-right"></i> About</a>
+                    <a href="contact.php"> <i class="fas fa-angle-right"></i> Contact</a>
+                </div>
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="cart.php"> <i class="fas fa-angle-right"></i> Cart</a>
+                    <a href="wishlist.php"> <i class="fas fa-angle-right"></i> Wishlist</a>
+                    <a href="login.php"> <i class="fas fa-angle-right"></i> Login</a>
+                    <a href="register.php"> <i class="fas fa-angle-right"></i> Register</a>
+                </div>
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-phone"></i> +91 6382728711 </p>
+                    <p> <i class="fas fa-phone"></i> +91 6382728712 </p>
+                    <p> <i class="fas fa-envelope"></i> barath@gmail.com </p>
+                    <p> <i class="fas fa-map-marker-alt"></i> Coimbatore, India - 641014 </p>
+                </div>
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fab fa-facebook-f"></i> Facebook </a>
+                    <a href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter"></i> Twitter </a>
+                    <a href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram"></i> Instagram </a>
+                    <a href="https://www.linkedin.com/" target="_blank"> <i class="fab fa-linkedin"></i> Linkedin </a>
+                </div>
+            </section>
+            <p class="credit"> &copy; copyright @ <?= date('Y'); ?> by <span>AGRO</span> | all rights reserved! </p>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    <!-- Add your custom JS files here -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
